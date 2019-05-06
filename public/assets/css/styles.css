@@ -1,0 +1,68 @@
+body {
+    background-image: url(../images/PL_bg_opacity_md.png);
+    background-size: 50px;
+
+    /* background-image: url(../images/plhs_2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center; */
+}
+
+.jumbotron {
+    /* opacity: .30;
+    background-color: white !important; */
+    /* background: rgb(200, 54, 54); This is for ie8 and below */
+    background: rgba(255, 255, 255, 0.85); 
+}
+
+h1 {
+    font-family: 'Playfair Display SC', serif !important;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: rgb(232, 0, 0) !important;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.75); 
+    margin-top: 20px;
+}
+
+.card-img-top {
+    height: 100px;
+    object-fit: cover;
+}
+
+.btn-primary {
+    background-color: rgb(223, 0, 0) !important;
+    border-color: rgb(232, 0, 0);
+}
+
+.btn-primary:hover {
+    background-color: rgb(187, 1, 1) !important;
+    border-color: white;
+}
+
+
+/* #cardinal-image {
+    object-fit: cover;
+
+} */
+/* 
+@media screen and (max-width: 980px) {
+    body {
+        background-image: url(../images/plhs_2.jpg);
+        background-size: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-image: url(../images/plhs_2.jpg);
+        background-size: 100%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+} */
+    
