@@ -13,13 +13,21 @@ body {
     background-color: white !important; */
     /* background: rgb(200, 54, 54); This is for ie8 and below */
     background: rgba(255, 255, 255, 0.85); 
+    background-image: url(../images/plhs_2_50percentOpacity.png);
+    background-size: cover;
+    /* font-size: 25vw; */
+
+}
+
+#title-image {
+    width: 50vw;
 }
 
 h1 {
     font-family: 'Playfair Display SC', serif !important;
-    font-size: 2.5em;
-    font-weight: bold;
-    color: rgb(232, 0, 0) !important;
+    font-size: 2.5em !important;
+    font-weight: bold !important;
+    color: rgb(191, 0, 0) !important;
 }
 
 .card {
@@ -42,27 +50,37 @@ h1 {
     border-color: white;
 }
 
+/* .thumbnail img {
+    height:250px;
+    width:200px !important;
+     width:100%; 
+} */
 
 /* #cardinal-image {
     object-fit: cover;
 
 } */
-/* 
+
 @media screen and (max-width: 980px) {
-    body {
+    /* body {
         background-image: url(../images/plhs_2.jpg);
         background-size: 100%;
+    } */
+
+    .thumbnail img {
+        object-fit: cover;
+
     }
 }
 
 @media screen and (max-width: 768px) {
-    body {
+    /* body {
         background-image: url(../images/plhs_2.jpg);
         background-size: 100%;
-    }
+    } */
 }
 
 @media screen and (max-width: 640px) {
 
-} */
+} 
     
